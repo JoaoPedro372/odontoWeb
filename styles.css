@@ -1,5 +1,5 @@
 body {
-    background-image: url('fotos/fundoDente.png');
+    background-image: url('fundoDente.png');
     background-size: cover; /* Faz com que a imagem cubra toda a tela */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Evita que a imagem se repita */
