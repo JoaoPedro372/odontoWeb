@@ -1,0 +1,58 @@
+body {
+    background-image: url('fotos/fundoDente.png');
+    background-size: cover; /* Faz com que a imagem cubra toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    margin: 0;
+}
+
+.firstImg {
+    height: 550px;
+    width: 350px;
+    
+    border-radius: 15px;
+
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.524);
+    
+}
+
+.boxImg {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    margin-bottom: 15px;
+
+    position: relative; 
+    
+}
+
+.boxLink {
+    position: absolute; /* Change to absolute positioning */
+    bottom: 5%; /* Adjust this value to position the button */
+    left: 50%; /* Adjust this value to position the button */
+    transform: translate(-50%, 0); /* Center the button horizontally */
+}
+
+.link {
+    text-decoration:none;
+    color: black;
+}
+
+button {
+    background-color: #ffffff; /* Add some styling for the button */
+    color: white;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005f73; /* Add a hover effect */
+}
