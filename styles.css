@@ -6,6 +6,19 @@ body {
     margin: 0;
 }
 
+.textInfos {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 .firstImg {
     height: 550px;
     width: 350px;
